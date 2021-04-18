@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    background-image: linear-gradient(to right, rgb(30, 255, 255),rgb(141, 233, 141));
+}
+
+.nav-link{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: white !important;
+    margin: 5px;
+}
+
+img{
+    width: 150px;
+}
+
+.navbar-nav{
+    text-align: right;
+}
+
+.menu .navbar-toggler{ 
+    padding-right: 0;
+    outline: none;
+    border: none;
+}
+
+.banner{
+    height: 85vh;
+    background-image:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.1)),url(/images/hr7.png);;
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner h1{
+    padding-top: 150px;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: 500;
+    text-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.banner p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.search-job{
+    padding: 30px 0;
+    margin: -50px 6% 50px;
+    border-radius: 50px;
+    background-image: linear-gradient(to top, rgb(30, 255, 255),rgb(141, 233, 141));
+}
+
+.search-job .form-control{
+    margin: 10px 5px;
+    max-width: 260px;
+    display: inline-flex;
+    border: none;
+    box-shadow: none !important;
+    border-radius: 15px;
+}
+
+.search-job .btn-primary{
+    border-radius: 35px 5px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: none !important;
+    display: inline-flex;
+    margin: 10px;
+    padding: 5px 40px;
+}
+
+#clients{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#clients h3{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#clients img{
+    margin: 30px;
+    max-width: 150px;
+}
+
+#clients .tata{
+    width:130px;
+}
+
+#job{
+    background: rgb(225, 232, 235);
+    padding: 50px 0px;
+}
+
+.company-details{
+    border-radius: 115px;
+}
+
+.Job-update{
+    background: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+.Job-update .fa{
+    margin-right: 10px;
+    margin-top: 5px;
+    color: rgb(88, 164, 235);
+}
+
+.Job-update small{
+    background: rgb(236, 234, 234);
+    padding: 1px 3px;
+    margin: 0px 3px;
+}
+
+.Job-update p{
+    margin-bottom: 3px;
+}
+
+.Job-update a{
+    float: right;
+    color: rgb(88, 164, 235);
+    text-decoration: underline;
+}
+
+.apply-btn{
+    height: 40px;
+    padding: 7px;
+    background-color: rgb(155, 243, 255);
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-radius: 10px;
+}
+
+.apply-btn .btn-primary{
+    padding: 0 30px;
+    float: right;
+    box-shadow: none !important;
+    border: 2px solid grey;
+    border-radius: 15px;
+}
+
+.pagelink li{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.pagelink :hover, .active{
+    color: white;
+    background-color: rgb(54, 221, 233);
+}
+
+/*---------mobile---------*/
+
+#mobile{
+    background-image:linear-gradient(to top, rgb(235, 252, 141),rgb(141, 233, 141));
+    padding: 50px 0;
+}
+
+#mobile h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    color: white;
+}
+
+#mobile h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    color: white;
+}
+
+#mobile img{
+    width: 300px;
+    margin: 10px 0;
+}
+
+#footer{
+    padding: 10px 10px 8px;
+}
+
+#footer a img{
+    width: 50px;
+    border-radius: 30px;
+}
